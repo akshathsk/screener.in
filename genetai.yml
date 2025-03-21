@@ -1,0 +1,12 @@
+jiraList:
+  - GENET-128
+emailRecipients:
+  - akshath.sk@gmail.com
+  - hs.rohit4@gmail.com
+  - shreyas04r@gmail.com
+  - sanjayprasadn@gmail.com
+
+#host:
+#  https://petstore3.swagger.io
+#swaggerJson:
+#  https://petstore3.swagger.io/api/v3/openapi.json
