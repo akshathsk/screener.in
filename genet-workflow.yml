@@ -1,0 +1,13 @@
+name: Genet UI Trigger
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  call_endpoint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Make an HTTP request to the genet endpoint
+        run: |
+          curl -v "http://35.224.231.171/genet-ui?codeRepoLink=https://github.com/akshathsk/screener.in.git"
