@@ -1,0 +1,4 @@
+enable_client_regression: true
+regression_jiras:
+  - GENET-128
+  - GENET-123
